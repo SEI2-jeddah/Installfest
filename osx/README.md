@@ -7,7 +7,8 @@
 1. Double-click on the downloaded archive to expand the contents.
 1. Drag Visual Studio Code.app to the Applications folder, making it available in the Launchpad.
 1. Add VS Code to your Dock by right-clicking on the icon and choosing  Options  Keep in Doc.
-1. After installing the VS Code, we can also configure the code to open from a command line, and it is pretty darn easy for us to do that.
+
+After installing the VS Code, we can also configure the code to open from a command line, and it is pretty darn easy for us to do that.
 
 ![vscode image](/uploads/vscode.png)
 1. Launch VS Code.
@@ -16,6 +17,41 @@ Now, if you have created any project that goes into that folder and hit the foll
 
 ```
 code .
+
 ```
 
+# Installing HomeBrew
+### How to Install Homebrew on Mac OS
+
+The simplest way to install Homebrew is through ruby and curl, accomplished with a single command. This approach is the same for installing Homebrew in all supported versions of Mac OS and Mac OS X.
+
+1. Open the “Terminal” application, found in /Applications/Utilities/
+2. Enter the following command into a single line of the terminal:
+
+```bash
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+3. Hit Return and you’ll see a series of lines about what the script will install and where, hit Return again to agree or hit Escape to cancel
+4. Enter the administrator password (required by sudo execution) to begin installation
+
+>Installation of Homebrew will take a while depending on the speed of your Mac and internet connection, as each necessary package is downloaded and installed by the script.
+
+When complete, you will see an “Installation successful!” message.
+
 ## Install GIT for Mac
+The easiest way to install Git on a Mac is via the stand-alone installer:
+
+1. Download the latest [Git for Mac installer](https://sourceforge.net/projects/git-osx-installer/files/).
+2. Follow the prompts to install Git.
+3. Open a terminal and verify the installation was successful by typing git --version:
+```bash
+  $ git --version
+  git version 2.9.2
+```
+4. Configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you create:
+```bash
+  $ git config --global user.name "Emma Paris"
+  $ git config --global user.email "eparis@atlassian.com"
+```
+(Optional) To make Git remember your username and password when working with HTTPS repositories, configure the [git-credential-osxkeychain helper](https://www.atlassian.com/git/tutorials/install-git#install-the-git-credential-osx).
+
