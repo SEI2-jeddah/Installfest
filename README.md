@@ -7,5 +7,5 @@ Choose the section that applies to your operating system.
 Once you are finished, also make sure to install further VSCode extensions. You can do this during installfest, or any time during the beginning of the course.
 
 1. [OSX](osx/README.md) 
-1. [Windows]((windows/README.md))
+1. [Windows](windows/README.md)
 1. [Linux](linux/README.md)
