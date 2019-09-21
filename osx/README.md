@@ -39,7 +39,14 @@ The simplest way to install Homebrew is through ruby and curl, accomplished with
 When complete, you will see an “Installation successful!” message.
 
 ## Install GIT for Mac
-The easiest way to install Git on a Mac is via the stand-alone installer:
+The easiest way to install Git on a Mac is via the stand-alone installer but If you have installed `Homebrew` to manage packages on OS X, you can follow these instructions to install Git:
+
+1. Open your terminal and install Git using Homebrew:
+
+```bash
+  $ brew install git
+```
+Skip to `3` after this is completed else follow the steps below.
 
 1. Download the latest [Git for Mac installer](https://sourceforge.net/projects/git-osx-installer/files/).
 2. Follow the prompts to install Git.
